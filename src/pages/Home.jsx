@@ -13,7 +13,7 @@ export default function Home() {
             </div>
             <div className="section">
                 <main class="container">
-                    <p>Créez votre site vitrine</p>
+                    <p className="vitrine">Créez votre site vitrine</p>
                     <section class="animation">
                         <div class="first"><div>100% personnalisé</div></div>
                         <div class="second"><div>Référencement SEO</div></div>

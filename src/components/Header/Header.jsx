@@ -1,5 +1,5 @@
 import stylepage from './Header.scss';
-
+import logo from '../../assets/devcorp.png'
 
 
 
@@ -7,17 +7,19 @@ import stylepage from './Header.scss';
 
 export default function Header() {
 	return (
-		<div className='header'>
 		
+		<section className='header'>
 			<div className="bar">
-				<span className='corp'>Dev Corp agence</span>
+				 <img src={logo}/>
+				
+				
 			</div>
-				<div className='link'>
-					<span>contact</span>
-					<span>contact</span>
-					<span>contact</span>
-				</div>
-		</div>
+				
+		
+		</section>
+	
+		
+		
 		
 	);
 }

@@ -3,11 +3,8 @@ body {
     color: white;
     background-color: white;
     font-family: 'Roboto';
-    padding-left: 30px;
-    padding-right: 30px;
+    
+    margin: 0;
+    padding: 0;
    
-}
-
-html {
-    width: 100%;
 }

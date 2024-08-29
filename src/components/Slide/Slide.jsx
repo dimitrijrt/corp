@@ -3,6 +3,10 @@ import { Carousel } from 'react-responsive-carousel';
 import "./Slide.scss";
 import React from "react";
 import image from "../../assets/ordi.jpg"
+import imgex from "../../assets/ex.png"
+import imgkas from "../../assets/kas.png"
+import imgport from "../../assets/port.png"
+import imgarg from "../../assets/arg.png"
 
 
 
@@ -12,21 +16,24 @@ function Slide() {
 
         {
             id: 1,
-            title: "Titre",
-            text: 'fgfdgfdg',
-            picture: image,
+           
+            picture: imgkas,
         },
          {
             id: 2,
-            title: "Titre",
-            text: 'fgfdgfdg',
-            picture: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg"
+           
+            picture: imgex
         },
          {
             id: 3,
+            
+            picture:imgarg
+        },
+        {
+            id: 3,
             title: "Titre",
             text: 'fgfdgfdg',
-            picture:"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg"
+            picture:imgport
         }
 
 
@@ -34,7 +41,8 @@ function Slide() {
 
 
     return (
-
+        <main className="slide">
+        <h4 className="real">Réalisations</h4>
         <Carousel autoPlay infiniteLoop showThumbs={false} dynamicHeight={false}>
             {datas.map((slider, index) => (
                 <div className='projetTile'> 
@@ -53,6 +61,7 @@ function Slide() {
 
              
         </Carousel>
+        </main>
 
     )
        

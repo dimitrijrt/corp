@@ -50,6 +50,7 @@
     flex:1;
     padding-bottom:70px;
     padding-top: 40px;
+    
    
     
 }
@@ -69,22 +70,30 @@
 
 
 
+.vitrine {
+    background-color: #05070b;
+    padding: 10px;
+    opacity: 80%;
+}
+
 // text effect
 
 p {
     text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
+   
 }
 
 .container {
     font-family: 'Roboto';
     color: white;
-    font-size: 2.26rem;
+    font-size: 2rem;
     text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding-bottom: 40px;
+    padding-top: 10px;
 
     
 }
@@ -93,14 +102,16 @@ p {
     height: 50px;
     overflow: hidden;
     margin-left: 1rem;
-    font-size: 2  rem;
+    font-size: 2rem;
 }
 
 .animation>div>div {
     padding: 0.25rem 0.75rem;
-    height: 3.4rem;
+    height: 3.5rem;
     margin-bottom: 2.81rem;
     display: inline-block;
+    opacity: 90%;
+    
 }
 
 .animation div:first-child {
