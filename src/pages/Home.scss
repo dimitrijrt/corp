@@ -30,7 +30,9 @@
     max-height: 312px;
     width: 100%;
     object-fit: contain;
-    opacity: 70%;   
+    opacity: 85%; 
+    border-radius: 15px; 
+     
 }
 
 .imgtxt {
@@ -39,7 +41,7 @@
 }
 
 .section {
-    background-image: url("../assets/back.jpg");
+    background-image: url("../assets/wal.jpg");
 }
 
 
@@ -73,7 +75,7 @@
 .vitrine {
     background-color: #05070b;
     padding: 10px;
-    opacity: 80%;
+    opacity: 90%;
 }
 
 // text effect
@@ -86,7 +88,7 @@ p {
 .container {
     font-family: 'Roboto';
     color: white;
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -103,6 +105,7 @@ p {
     overflow: hidden;
     margin-left: 1rem;
     font-size: 2rem;
+    font-weight: 1;
 }
 
 .animation>div>div {
@@ -120,6 +123,7 @@ p {
 
 .first div {
     background-color: #05c1ae;
+    
 
 }
 

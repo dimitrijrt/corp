@@ -14,25 +14,21 @@ function Slide() {
 
     const datas  = [
 
-        {
-            id: 1,
-           
-            picture: imgkas,
-        },
+       
          {
             id: 2,
-           
+            title: "SITE VITRINE",
             picture: imgex
         },
          {
             id: 3,
-            
+            title: " SITE ECOMMERCE",
             picture:imgarg
         },
         {
             id: 3,
-            title: "Titre",
-            text: 'fgfdgfdg',
+            title: "PORTFOLIO",
+            
             picture:imgport
         }
 
@@ -42,8 +38,8 @@ function Slide() {
 
     return (
         <main className="slide">
-        <h4 className="real">Réalisations</h4>
-        <Carousel autoPlay infiniteLoop showThumbs={false} dynamicHeight={false}>
+        <h4 className="real">Nos Réalisations</h4>
+        <Carousel autoPlay infiniteLoop showThumbs={false} dynamicHeight={false} interval={2000}>
             {datas.map((slider, index) => (
                 <div className='projetTile'> 
                     <h2 className='titre'>{slider.title}</h2>

@@ -13,11 +13,11 @@ export default function Home() {
             </div>
             <div className="section">
                 <main class="container">
-                    <p className="vitrine">Créez votre site vitrine</p>
+                    <p className="vitrine">Créez votre site Web</p>
                     <section class="animation">
                         <div class="first"><div>100% personnalisé</div></div>
                         <div class="second"><div>Référencement SEO</div></div>
-                        <div class="third"><div>Design moderne</div></div>
+                        <div class="third"><div>Attirez + de clients</div></div>
                     </section>
                 </main>
                 
@@ -29,11 +29,11 @@ export default function Home() {
                     </div>
                 <div className="txt">
                      
-                    <h3>Besoin d'un site vitrine ?</h3>
-                     <p>Gagnez en visibilité grâce à un sit web personnalisé !</p>
+                    <h3>Besoin d'un site Web ?</h3>
+                     <p>Gagnez en visibilité grâce à un site web personnalisé !</p>
                 
                 <p> Vous êtes un commerce qui veut attirer plus de clients,Vous êtes un restaurant , un entrepreneur , vous avez un projet , Vous avez besoin d'un site web ? </p>
-                <p>Contactez nous ➡️ </p>
+                <p>Contactez nous pour recevoir votr devis ➡️ </p>
                 
             </div>
            

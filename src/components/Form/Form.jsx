@@ -26,7 +26,6 @@ export const Form = () => {
 
     return (
       
-      
        <form ref={form} onSubmit={sendEmail} className='form' >
            
             <label>Email</label>
@@ -35,6 +34,7 @@ export const Form = () => {
             <textarea name="message" placeholder='Message' />
             <input type="submit" value="Send" id='input-submit' />
         </form>
+       
       
 
         
